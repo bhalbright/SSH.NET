@@ -168,6 +168,10 @@
     <Compile Include="RemotePathNoneTransformation.cs" />
     <Compile Include="RemotePathShellQuoteTransformation.cs" />
     <Compile Include="RemotePathTransformation.cs" />
+    <Compile Include="Security\Cryptography\Bcrypt.cs" />
+    <Compile Include="Security\Cryptography\Ed25519DigitalSignature.cs" />
+    <Compile Include="Security\Cryptography\Ed25519Operations.cs" />
+    <Compile Include="Security\Cryptography\EdDSAKey.cs" />
     <Compile Include="Security\Cryptography\HMACMD5.cs" />
     <Compile Include="Security\Cryptography\HMACSHA1.cs" />
     <Compile Include="Security\Cryptography\HMACSHA256.cs" />

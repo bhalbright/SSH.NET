@@ -608,11 +608,23 @@
     <Compile Include="..\Renci.SshNet\Security\Cryptography\AsymmetricCipher.cs">
       <Link>Security\Cryptography\AsymmetricCipher.cs</Link>
     </Compile>
+    <Compile Include="..\Renci.SshNet\Security\Cryptography\Bcrypt.cs">
+      <Link>Security\Cryptography\Bcrypt.cs</Link>
+    </Compile>
     <Compile Include="..\Renci.SshNet\Security\Cryptography\BlockCipher.cs">
       <Link>Security\Cryptography\BlockCipher.cs</Link>
     </Compile>
     <Compile Include="..\Renci.SshNet\Security\Cryptography\Cipher.cs">
       <Link>Security\Cryptography\Cipher.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Security\Cryptography\Ed25519DigitalSignature.cs">
+      <Link>Security\Cryptography\Ed25519DigitalSignature.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Security\Cryptography\Ed25519Operations.cs">
+      <Link>Security\Cryptography\Ed25519Operations.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Security\Cryptography\EdDSAKey.cs">
+      <Link>Security\Cryptography\EdDSAKey.cs</Link>
     </Compile>
     <Compile Include="..\Renci.SshNet\Security\Cryptography\CipherDigitalSignature.cs">
       <Link>Security\Cryptography\CipherDigitalSignature.cs</Link>
