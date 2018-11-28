@@ -477,7 +477,6 @@ namespace Renci.SshNet
             var padding = privateKeyReader.ReadBytes();
             for (int i = 0; i < padding.Length; i++)
             {
-                var test3 = (int)padding[i];
                 if ((int)padding[i] != i + 1)
                 {
                     throw new SshException("Padding of openssh key format contained wrong byte at position: " + i);
