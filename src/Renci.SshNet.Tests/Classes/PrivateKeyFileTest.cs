@@ -492,7 +492,7 @@ namespace Renci.SshNet.Tests.Classes
         }
 
         /// <summary>
-        /// A test for opening an openssh v1 keyfile where there is no passphrase.
+        /// A test for opening an openssh v1 keyfile where there is a passphrase.
         ///</summary>
         [TestMethod()]
         public void TestOpenSshV1KeyFileWithPassphrase()
